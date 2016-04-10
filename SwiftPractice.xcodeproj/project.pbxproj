@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */; };
-		55CCF58E1CBAA7B600004ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF58D1CBAA7B600004ABB /* ViewController.swift */; };
-		55CCF5911CBAA7B600004ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CCF58F1CBAA7B600004ABB /* Main.storyboard */; };
 		55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF5921CBAA7B600004ABB /* SwiftPractice.xcdatamodeld */; };
 		55CCF5961CBAA7B600004ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCF5951CBAA7B600004ABB /* Assets.xcassets */; };
 		55CCF5991CBAA7B600004ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CCF5971CBAA7B600004ABB /* LaunchScreen.storyboard */; };
 		55CCF5A41CBAA7B600004ABB /* SwiftPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF5A31CBAA7B600004ABB /* SwiftPracticeTests.swift */; };
 		55CCF5AF1CBAA7B600004ABB /* SwiftPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF5AE1CBAA7B600004ABB /* SwiftPracticeUITests.swift */; };
+		55CCF5BD1CBAA82200004ABB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF5BC1CBAA82200004ABB /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 /* Begin PBXFileReference section */
 		55CCF5881CBAA7B600004ABB /* SwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55CCF58D1CBAA7B600004ABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55CCF5901CBAA7B600004ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55CCF5931CBAA7B600004ABB /* SwiftPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftPractice.xcdatamodel; sourceTree = "<group>"; };
 		55CCF5951CBAA7B600004ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55CCF5981CBAA7B600004ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		55CCF5AA1CBAA7B600004ABB /* SwiftPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCF5AE1CBAA7B600004ABB /* SwiftPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPracticeUITests.swift; sourceTree = "<group>"; };
 		55CCF5B01CBAA7B600004ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CCF5BC1CBAA82200004ABB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */,
-				55CCF58D1CBAA7B600004ABB /* ViewController.swift */,
-				55CCF58F1CBAA7B600004ABB /* Main.storyboard */,
 				55CCF5951CBAA7B600004ABB /* Assets.xcassets */,
 				55CCF5971CBAA7B600004ABB /* LaunchScreen.storyboard */,
 				55CCF59A1CBAA7B600004ABB /* Info.plist */,
 				55CCF5921CBAA7B600004ABB /* SwiftPractice.xcdatamodeld */,
+				55CCF5BC1CBAA82200004ABB /* MainViewController.swift */,
 			);
 			path = SwiftPractice;
 			sourceTree = "<group>";
@@ -234,7 +231,6 @@
 			files = (
 				55CCF5991CBAA7B600004ABB /* LaunchScreen.storyboard in Resources */,
 				55CCF5961CBAA7B600004ABB /* Assets.xcassets in Resources */,
-				55CCF5911CBAA7B600004ABB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */,
-				55CCF58E1CBAA7B600004ABB /* ViewController.swift in Sources */,
 				55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */,
+				55CCF5BD1CBAA82200004ABB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		55CCF58F1CBAA7B600004ABB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55CCF5901CBAA7B600004ABB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		55CCF5971CBAA7B600004ABB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

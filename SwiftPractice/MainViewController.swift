@@ -20,14 +20,16 @@ class MainViewController: UIViewController {
         [buttonTableView.setTitleColor(UIColor.blueColor(), forState:UIControlState.Normal)]
         buttonTableView.contentHorizontalAlignment = UIControlContentHorizontalAlignment.Left
         self.view.addSubview(buttonTableView)
+        
+        let labelTest = UILabel(frame: CGRectMake(10, 100, 300, 20))
+        labelTest.text = "Hello world"
+        self.view.addSubview(labelTest);
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
 
     /*
     // MARK: - Navigation

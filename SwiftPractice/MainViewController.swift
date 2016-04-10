@@ -2,20 +2,24 @@
 //  MainViewController.swift
 //  SwiftPractice
 //
-//  Created by EPCNSZXW0311 on 4/10/16.
+//  Created by EPCNSZXW0311 on 4/11/16.
 //  Copyright © 2016 EPCNSZXW0311. All rights reserved.
 //
 
 import UIKit
-import "Masonry.h"
 
 class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.view.backgroundColor = UIColor.whiteColor()
-        _ = UIView(frame:self.view.bounds)
+
+        let buttonTableView = UIButton(frame: CGRectMake(10, 80, 300, 20))
+        [buttonTableView.setTitle("UITableView", forState: UIControlState.Normal)]
+        [buttonTableView.setTitleColor(UIColor.blueColor(), forState:UIControlState.Normal)]
+        buttonTableView.contentHorizontalAlignment = UIControlContentHorizontalAlignment.Left
+        self.view.addSubview(buttonTableView)
     }
 
     override func didReceiveMemoryWarning() {

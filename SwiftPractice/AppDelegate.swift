@@ -16,10 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-            let rootView: MainViewController = MainViewController()
-            if let window = self.window{
-                window.rootViewController = rootView
-            }
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        if let window = window {
+            window.backgroundColor = UIColor.whiteColor()
+            window.rootViewController = UINavigationController(rootViewController : MainViewController())
+            window.makeKeyAndVisible()
+        }
         
         return true
     }

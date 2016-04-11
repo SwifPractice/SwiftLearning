@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55B14F0E1CBC023700032F50 /* TableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */; };
 		55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */; };
 		55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF5921CBAA7B600004ABB /* SwiftPractice.xcdatamodeld */; };
 		55CCF5961CBAA7B600004ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCF5951CBAA7B600004ABB /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDemoViewController.swift; sourceTree = "<group>"; };
 		55CCF5881CBAA7B600004ABB /* SwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CCF5931CBAA7B600004ABB /* SwiftPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftPractice.xcdatamodel; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				55CCF59A1CBAA7B600004ABB /* Info.plist */,
 				55CCF5921CBAA7B600004ABB /* SwiftPractice.xcdatamodeld */,
 				55CCF5BE1CBABA4100004ABB /* MainViewController.swift */,
+				55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */,
 			);
 			path = SwiftPractice;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				55CCF5BF1CBABA4100004ABB /* MainViewController.swift in Sources */,
 				55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */,
 				55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */,
+				55B14F0E1CBC023700032F50 /* TableDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +478,7 @@
 				55CCF5B51CBAA7B600004ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55CCF5B61CBAA7B600004ABB /* Build configuration list for PBXNativeTarget "SwiftPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +487,7 @@
 				55CCF5B81CBAA7B600004ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55CCF5B91CBAA7B600004ABB /* Build configuration list for PBXNativeTarget "SwiftPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +496,7 @@
 				55CCF5BB1CBAA7B600004ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

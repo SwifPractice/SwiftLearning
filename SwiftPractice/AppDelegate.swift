@@ -16,13 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        if let window = window {
-            window.backgroundColor = UIColor.whiteColor()
-            window.rootViewController = UINavigationController(rootViewController : MainViewController())
-            window.makeKeyAndVisible()
-        }
-        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.rootViewController = UINavigationController(rootViewController: MainViewController(nibName: nil, bundle: nil))
+        self.window!.makeKeyAndVisible()
         return true
     }
 

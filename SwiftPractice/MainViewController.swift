@@ -14,21 +14,37 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.whiteColor()
-
+        configureToolbar()
+        
         let buttonTableView = UIButton(frame: CGRectMake(10, 80, 300, 20))
         [buttonTableView.setTitle("UITableView", forState: UIControlState.Normal)]
         [buttonTableView.setTitleColor(UIColor.blueColor(), forState:UIControlState.Normal)]
         buttonTableView.contentHorizontalAlignment = UIControlContentHorizontalAlignment.Left
+        buttonTableView.addTarget(self, action: #selector(buttonPressed(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        buttonTableView.tag = 1;
         self.view.addSubview(buttonTableView)
-        
-        let labelTest = UILabel(frame: CGRectMake(10, 100, 300, 20))
-        labelTest.text = "Hello world"
-        self.view.addSubview(labelTest);
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func buttonPressed(sender: UIButton!) {
+        let button:UIButton = sender
+        print("%d button is clicked", button.tag);
+        
+        let viewTable = TableDemoViewController(nibName: nil, bundle: nil);
+        self.navigationController?.pushViewController(viewTable, animated: true)
+    }
+    
+    func configureToolbar() {
+        self.navigationItem.setLeftBarButtonItem(UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Refresh, target: self, action: nil), animated: true)
+        
+        self.navigationItem.setRightBarButtonItem(UIBarButtonItem(title: "TBC>", style: UIBarButtonItemStyle.Plain, target: self, action: nil), animated: true)
+        
+        self.navigationController!.navigationBar.barTintColor = UIColor.blueColor()
+        self.title = "Swift Practice"
     }
 
     /*

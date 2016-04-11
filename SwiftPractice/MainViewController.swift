@@ -32,7 +32,7 @@ class MainViewController: UIViewController {
     
     func buttonPressed(sender: UIButton!) {
         let button:UIButton = sender
-        print("%d button is clicked", button.tag);
+        print("\(button.tag) button is clicked");
         
         let viewTable = TableDemoViewController(nibName: nil, bundle: nil);
         self.navigationController?.pushViewController(viewTable, animated: true)

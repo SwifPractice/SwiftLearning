@@ -29,16 +29,4 @@ class Product {
             return nil
         }
     }
-    
-    static func getProductStatusString(status : ProductStatus) -> String? {
-        var statusString : String? = nil
-        switch status {
-        case .InProgress:
-            statusString = "In Progress"
-        case .ToBuy:
-            statusString = "To Buy"
-        }
-        
-        return statusString
-    }
 }

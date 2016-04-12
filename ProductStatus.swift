@@ -8,7 +8,16 @@
 
 import Foundation
 
-enum ProductStatus {
-    case ToBuy
-    case InProgress
+enum ProductStatus : Int {
+    case ToBuy = 0
+    case InProgress = 1
+    
+    func toString() -> String {
+        switch self {
+            case .ToBuy:
+                return "To Buy"
+            case .InProgress:
+                return "In Progress"
+        }
+    }
 }

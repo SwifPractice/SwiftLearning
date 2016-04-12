@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55A8160D1CBD4B05006FC1A2 /* CustomizedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8160C1CBD4B05006FC1A2 /* CustomizedCell.swift */; };
 		55B14F0E1CBC023700032F50 /* TableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */; };
 		55C2896B1CBCF4420076F3DC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2896A1CBCF4420076F3DC /* Product.swift */; };
 		55C2896D1CBCF69D0076F3DC /* ProductStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2896C1CBCF69D0076F3DC /* ProductStatus.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55A8160C1CBD4B05006FC1A2 /* CustomizedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedCell.swift; sourceTree = "<group>"; };
 		55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDemoViewController.swift; sourceTree = "<group>"; };
 		55C2896A1CBCF4420076F3DC /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		55C2896C1CBCF69D0076F3DC /* ProductStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductStatus.swift; sourceTree = "<group>"; };
@@ -80,6 +82,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55A8160A1CBD4AD1006FC1A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55A8160C1CBD4B05006FC1A2 /* CustomizedCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		55A8160B1CBD4AE4006FC1A2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		55C289691CBCF42A0076F3DC /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +130,8 @@
 		55CCF58A1CBAA7B600004ABB /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				55A8160B1CBD4AE4006FC1A2 /* ViewControllers */,
+				55A8160A1CBD4AD1006FC1A2 /* Views */,
 				55C289691CBCF42A0076F3DC /* Models */,
 				55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */,
 				55CCF5951CBAA7B600004ABB /* Assets.xcassets */,
@@ -277,6 +296,7 @@
 				55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */,
 				55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */,
 				55B14F0E1CBC023700032F50 /* TableDemoViewController.swift in Sources */,
+				55A8160D1CBD4B05006FC1A2 /* CustomizedCell.swift in Sources */,
 				55C2896D1CBCF69D0076F3DC /* ProductStatus.swift in Sources */,
 				55C2896B1CBCF4420076F3DC /* Product.swift in Sources */,
 			);

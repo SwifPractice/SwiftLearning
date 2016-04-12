@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		55B14F0E1CBC023700032F50 /* TableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */; };
+		55C289681CBC939C0076F3DC /* CustomizedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C289671CBC939C0076F3DC /* CustomizedTableCell.swift */; };
+		55C2896B1CBCF4420076F3DC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2896A1CBCF4420076F3DC /* Product.swift */; };
+		55C2896D1CBCF69D0076F3DC /* ProductStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2896C1CBCF69D0076F3DC /* ProductStatus.swift */; };
 		55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */; };
 		55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF5921CBAA7B600004ABB /* SwiftPractice.xcdatamodeld */; };
 		55CCF5961CBAA7B600004ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCF5951CBAA7B600004ABB /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDemoViewController.swift; sourceTree = "<group>"; };
+		55C289671CBC939C0076F3DC /* CustomizedTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedTableCell.swift; sourceTree = "<group>"; };
+		55C2896A1CBCF4420076F3DC /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		55C2896C1CBCF69D0076F3DC /* ProductStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductStatus.swift; sourceTree = "<group>"; };
 		55CCF5881CBAA7B600004ABB /* SwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CCF5931CBAA7B600004ABB /* SwiftPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftPractice.xcdatamodel; sourceTree = "<group>"; };
@@ -76,9 +82,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55C289691CBCF42A0076F3DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55C2896A1CBCF4420076F3DC /* Product.swift */,
+				55C2896C1CBCF69D0076F3DC /* ProductStatus.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		55CCF57F1CBAA7B600004ABB = {
 			isa = PBXGroup;
 			children = (
+				55C289691CBCF42A0076F3DC /* Models */,
 				55CCF58A1CBAA7B600004ABB /* SwiftPractice */,
 				55CCF5A21CBAA7B600004ABB /* SwiftPracticeTests */,
 				55CCF5AD1CBAA7B600004ABB /* SwiftPracticeUITests */,
@@ -106,6 +122,7 @@
 				55CCF5921CBAA7B600004ABB /* SwiftPractice.xcdatamodeld */,
 				55CCF5BE1CBABA4100004ABB /* MainViewController.swift */,
 				55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */,
+				55C289671CBC939C0076F3DC /* CustomizedTableCell.swift */,
 			);
 			path = SwiftPractice;
 			sourceTree = "<group>";
@@ -262,6 +279,9 @@
 				55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */,
 				55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */,
 				55B14F0E1CBC023700032F50 /* TableDemoViewController.swift in Sources */,
+				55C289681CBC939C0076F3DC /* CustomizedTableCell.swift in Sources */,
+				55C2896D1CBCF69D0076F3DC /* ProductStatus.swift in Sources */,
+				55C2896B1CBCF4420076F3DC /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

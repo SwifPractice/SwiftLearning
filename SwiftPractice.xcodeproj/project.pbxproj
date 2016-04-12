@@ -10,7 +10,6 @@
 		55B14F0E1CBC023700032F50 /* TableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */; };
 		55C2896B1CBCF4420076F3DC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2896A1CBCF4420076F3DC /* Product.swift */; };
 		55C2896D1CBCF69D0076F3DC /* ProductStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2896C1CBCF69D0076F3DC /* ProductStatus.swift */; };
-		55C2896F1CBD01770076F3DC /* customizedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2896E1CBD01770076F3DC /* customizedTableCell.swift */; };
 		55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */; };
 		55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF5921CBAA7B600004ABB /* SwiftPractice.xcdatamodeld */; };
 		55CCF5961CBAA7B600004ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCF5951CBAA7B600004ABB /* Assets.xcassets */; };
@@ -41,7 +40,6 @@
 		55B14F0D1CBC023700032F50 /* TableDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDemoViewController.swift; sourceTree = "<group>"; };
 		55C2896A1CBCF4420076F3DC /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		55C2896C1CBCF69D0076F3DC /* ProductStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductStatus.swift; sourceTree = "<group>"; };
-		55C2896E1CBD01770076F3DC /* customizedTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customizedTableCell.swift; sourceTree = "<group>"; };
 		55CCF5881CBAA7B600004ABB /* SwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CCF5931CBAA7B600004ABB /* SwiftPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftPractice.xcdatamodel; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				55C289691CBCF42A0076F3DC /* Models */,
-				55C2896E1CBD01770076F3DC /* customizedTableCell.swift */,
 				55CCF58B1CBAA7B600004ABB /* AppDelegate.swift */,
 				55CCF5951CBAA7B600004ABB /* Assets.xcassets */,
 				55CCF5971CBAA7B600004ABB /* LaunchScreen.storyboard */,
@@ -277,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CCF5BF1CBABA4100004ABB /* MainViewController.swift in Sources */,
-				55C2896F1CBD01770076F3DC /* customizedTableCell.swift in Sources */,
 				55CCF5941CBAA7B600004ABB /* SwiftPractice.xcdatamodeld in Sources */,
 				55CCF58C1CBAA7B600004ABB /* AppDelegate.swift in Sources */,
 				55B14F0E1CBC023700032F50 /* TableDemoViewController.swift in Sources */,

@@ -11,4 +11,9 @@ class CustomizedCell : UITableViewCell {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    func addControl() {
+        let image : UIImage? = UIImage(data: (product?.picture)!)
+        //let imageView : UIImage =
+    }
 }

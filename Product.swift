@@ -7,6 +7,7 @@ class Product {
     var quantity : Int
     var description : String?
     var status : ProductStatus
+    var picture : NSData?
     
     init() {
         self.id = 0
@@ -15,15 +16,17 @@ class Product {
         self.quantity = 0
         self.description = nil
         self.status = .ToBuy
+        self.picture = nil
     }
     
-    init?(id: Int, name : String, price : Double, quantity : Int, description : String, status : ProductStatus) {
+    init?(id: Int, name : String, price : Double, quantity : Int, description : String, status : ProductStatus, picture : NSData) {
         self.id = id
         self.name = name
         self.price = price
         self.quantity = quantity
         self.description = description
         self.status = status
+        self.picture = picture
         
         if id == 0 || name.isEmpty {
             return nil
